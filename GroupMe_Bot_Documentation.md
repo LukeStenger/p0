@@ -8,7 +8,7 @@
 ### 2. Time of Day Based Greetings
 - Greets users with "Good morning" or "Good night", if the user sends the same phrase first, it will send the identical response + the user's name afterwards.
 
-### 4. Obtain Stock Prices
+### 3. Obtain Stock Prices
 - Allows users to say "stock price [any valid name]" and the bot will retrieve
 the latest closing price of that stock. example: "stock price AAPL" will get
 the latest closing price for the APPLE stock

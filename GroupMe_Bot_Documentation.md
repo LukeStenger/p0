@@ -5,10 +5,15 @@
 ### 1. Greeting Testing GitHub
 - Responds to "hello bot" with the word "sup." The bot only responds to Luke Stenger saying hello.
 
-### 2. Waking Up and Dozing Off
+### 2. Time of Day Based Greetings
 - Greets users with "Good morning" or "Good night", if the user sends the same phrase first, it will send the identical response + the user's name afterwards.
 
-### 3. Like Message
+### 4. Obtain Stock Prices
+- Allows users to say "stock price [any valid name]" and the bot will retrieve
+the latest closing price of that stock. example: "stock price AAPL" will get
+the latest closing price for the APPLE stock
+
+### 4. Like Message
 - Allows the bot to cause the user to like their own message by typing "like this message."
 
 ## How to Run the Bot
@@ -38,7 +43,7 @@
 
 5. **Interacting with the Bot**
    - Once running, the bot will respond to the commands mentioned previously (see Features).
-   - Test it yourself messages like "hello bot," "good morning," "good night," or "like this message."
+   - Test it yourself messages like "hello bot," "good morning," "stock price TSLA", "good night," or "like this message."
 
 ## Customization
 
